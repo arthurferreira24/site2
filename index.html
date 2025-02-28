@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <title>Alura Book</title>
-    <link rel="stylesheet" href="reset.css">
-   <link rel="stylesheet" href="style.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jogo de Corrida</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-        <header class="cabecalho">
-            
-            <div class="container">
-            <span class="cabecalho__menu-hamburguer container__imagem"></span>
-        <img src="img/Logo.svg" alt="Logotipo da alura books">
-        </div>
-       
-        <div class="container">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-        <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
-        <a href="#"><img src="img/Usuário.svg" alt="Meu Perfil"></a>
-    </div>
-    
-</header>
 
+<body>
+    <div class="game-container">
+        <div id="car" class="car"></div>
+        <div id="obstacle" class="obstacle"></div>
+    </div>
+    <div class="score">
+        <h2>Pontuação: <span id="score">0</span></h2>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
